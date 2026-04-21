@@ -1,6 +1,3 @@
-Aquí tienes un `README.md` completo y profesional para tu proyecto, listo para GitHub.
-
-```markdown
 # 🧠 React - Entrega de Ejercicios (Módulo React)
 
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
@@ -31,7 +28,7 @@ Cada ejercicio implementa un componente funcional independiente, utilizando **Ho
 
 ## 🚀 Tecnologías utilizadas
 
-- ⚛️ **React 18** (componentes funcionales + Hooks)
+- ⚛️ **React 19** (componentes funcionales + Hooks)
 - 🧭 **React Router DOM** (navegación entre ejercicios)
 - 🎨 **CSS3** (Mobile First, Grid, Flexbox, diseño responsive)
 - ♿ **Accesibilidad** (atributos `aria-*`, roles, `aria-live`)
@@ -103,8 +100,3 @@ Creado con ❤️ por **Jaterli**
 ## 📄 Licencia
 
 Todos los derechos reservados &copy; 2026
-```
-
----
-
-Puedes copiar y pegar este contenido directamente en un archivo `README.md` en la raíz de tu proyecto. Si deseas ajustar algún detalle (como tu nombre de usuario de GitHub o el año), solo edítalo antes de subirlo.
