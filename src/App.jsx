@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout';
 import Ejercicio1 from './components/Ejercicio1';
@@ -25,7 +25,7 @@ const ejercicios = {
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -40,7 +40,7 @@ function App() {
           <Route path="/ejercicio/9" element={<Ejercicio9 title={ejercicios[9].title} desc={ejercicios[9].desc} />} />
         </Routes>
       </Layout>
-    </Router>
+    </BrowserRouter>
   );
 }
 
