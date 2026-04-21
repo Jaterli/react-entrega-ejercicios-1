@@ -55,7 +55,7 @@ function Home() {
   return (
     <>
       <header className="exercise-header">
-        <h1>Ejercicios de JavaScript (entrega 1)</h1>
+        <h1>Relación de 9 ejercicios con React (entrega 1)</h1>
         <p>Master en Desarrollo Web Full Stack</p>
       </header>
       
